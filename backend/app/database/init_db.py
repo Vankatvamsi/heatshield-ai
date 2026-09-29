@@ -143,9 +143,10 @@ def _seed_admin_user(db):
         db.flush()
         print(f"  👤 Super Admin user created: {super_email}")
     else:
-        # Ensure role and status are set correctly
+        # Ensure role, status, and password are synced with environment variables
         user.role = "super_admin"
         user.status = "active"
+        user.password_hash = hash_password(settings.SUPER_ADMIN_PASSWORD)
         db.flush()
 
     if user and not db.query(UserProfile).filter(UserProfile.user_id == user.id).first():
