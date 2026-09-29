@@ -1,0 +1,11 @@
+id,name,latitude,longitude,city,state,country
+1,Hyderabad,17.385,78.486,Hyderabad,Telangana,India
+2,Delhi,28.704,77.102,Delhi,Delhi,India
+3,Mumbai,19.076,72.877,Mumbai,Maharashtra,India
+4,Chennai,13.083,80.27,Chennai,Tamil Nadu,India
+5,Kolkata,22.572,88.363,Kolkata,West Bengal,India
+6,Lucknow,26.85,80.949,Lucknow,Uttar Pradesh,India
+7,Jaipur,26.912,75.787,Jaipur,Rajasthan,India
+8,Nagpur,21.144,79.082,Nagpur,Maharashtra,India
+9,Bhopal,23.259,77.412,Bhopal,Madhya Pradesh,India
+10,Ahmedabad,23.022,72.571,Ahmedabad,Gujarat,India

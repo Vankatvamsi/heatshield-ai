@@ -1,0 +1,39 @@
+{
+  "heatwave_probability": {
+    "low": 30,
+    "moderate": 50,
+    "high": 70,
+    "extreme": 85
+  },
+  "thermal_stress_score": {
+    "low": 20,
+    "moderate": 40,
+    "elevated": 60,
+    "high": 80,
+    "extreme": 100
+  },
+  "temperature_celsius": {
+    "low": 32,
+    "moderate": 37,
+    "high": 40,
+    "extreme": 44
+  },
+  "combined_risk": {
+    "low": 20,
+    "moderate": 40,
+    "high": 65,
+    "extreme": 80
+  },
+  "alert_thresholds": {
+    "info_probability": 30,
+    "warning_probability": 50,
+    "high_probability": 70,
+    "extreme_probability": 85
+  },
+  "uhi_intensity": {
+    "weak": 1.0,
+    "moderate": 2.0,
+    "strong": 3.0,
+    "very_strong": 4.5
+  }
+}

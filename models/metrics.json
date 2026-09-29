@@ -1,0 +1,62 @@
+{
+  "dataset_note": "DEMO/SYNTHETIC dataset. Metrics are for demonstration only.",
+  "accuracy": 0.9915,
+  "precision": 0.9615,
+  "recall": 1.0,
+  "f1_score": 0.9804,
+  "confusion_matrix": [
+    [
+      92,
+      1
+    ],
+    [
+      0,
+      25
+    ]
+  ],
+  "feature_importance": {
+    "max_temperature": 0.2612,
+    "temperature": 0.1858,
+    "temp_anomaly": 0.1641,
+    "min_temperature": 0.1065,
+    "heat_index": 0.0737,
+    "dew_point": 0.0629,
+    "solar_radiation": 0.0386,
+    "rolling_max_temp": 0.0271,
+    "rolling_avg_temp": 0.0254,
+    "humidity": 0.013,
+    "day_of_year": 0.0082,
+    "temp_humidity_interaction": 0.0073,
+    "longitude": 0.0062,
+    "precipitation": 0.0055,
+    "month": 0.004,
+    "latitude": 0.0037,
+    "pressure": 0.0031,
+    "wind_speed": 0.002,
+    "recent_heatwave_count": 0.0016
+  },
+  "feature_cols": [
+    "temperature",
+    "max_temperature",
+    "min_temperature",
+    "humidity",
+    "wind_speed",
+    "pressure",
+    "solar_radiation",
+    "precipitation",
+    "dew_point",
+    "latitude",
+    "longitude",
+    "day_of_year",
+    "month",
+    "heat_index",
+    "temp_humidity_interaction",
+    "temp_anomaly",
+    "rolling_avg_temp",
+    "rolling_max_temp",
+    "recent_heatwave_count"
+  ],
+  "model": "RandomForestClassifier",
+  "train_size": 472,
+  "test_size": 118
+}
