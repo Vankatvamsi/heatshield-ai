@@ -41,12 +41,12 @@ class Settings:
     THRESHOLDS_PATH: Path = Path(os.getenv("THRESHOLDS_PATH", "../config/risk_thresholds.json"))
 
     # ── Super Admin / Primary Admin ───────────────────────────────────────────
-    SUPER_ADMIN_EMAIL: str = os.getenv("SUPER_ADMIN_EMAIL", "venkatvamsi07@gmail.com")
-    SUPER_ADMIN_PASSWORD: str = os.getenv("SUPER_ADMIN_PASSWORD", "vamsi@93")
+    SUPER_ADMIN_EMAIL: str = os.getenv("SUPER_ADMIN_EMAIL", "")
+    SUPER_ADMIN_PASSWORD: str = os.getenv("SUPER_ADMIN_PASSWORD", "")
     SUPER_ADMIN_NAME: str = os.getenv("SUPER_ADMIN_NAME", "Vamsi Admin")
 
     # Email to notify when a new admin requests access
-    ADMIN_APPROVAL_EMAIL: str = os.getenv("ADMIN_APPROVAL_EMAIL", "venkatvamsi07@gmail.com")
+    ADMIN_APPROVAL_EMAIL: str = os.getenv("ADMIN_APPROVAL_EMAIL", "")
 
     # ── SMTP Email (for admin approval notifications) ─────────────────────────
     SMTP_HOST: str = os.getenv("SMTP_HOST", "")
